@@ -1,6 +1,6 @@
 function getName(name : string)
 
-{ let greet
+{ var greet
 if (name=="abhishek")
     {
          greet="hello abhishek"
