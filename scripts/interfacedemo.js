@@ -10,7 +10,20 @@ var Employee = /** @class */ (function () {
     };
     return Employee;
 }());
+var cust = /** @class */ (function () {
+    function cust() {
+    }
+    cust.prototype.hello = function () {
+        console.log("customer hello");
+    };
+    cust.prototype.bye = function () {
+        console.log("customer bye");
+    };
+    return cust;
+}());
 var emp1 = new Employee();
 emp1.hello();
 emp1.bye();
+var cust1 = new cust();
+cust1.bye();
 //# sourceMappingURL=interfacedemo.js.map
