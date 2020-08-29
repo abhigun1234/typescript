@@ -9,6 +9,7 @@ class Student{
       this.name=_name;
       this.address=_address
   }
+  //https://github.com/abhigun1234/typescript.git
   getName()
   {
 
@@ -28,6 +29,8 @@ class Student{
    this.address=_address
   }
 }
+
+//taking data from user 
 // create object
 let st1=new Student("Laxmi","pimple")
 // st1.address='hinjewadi'

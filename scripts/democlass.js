@@ -7,6 +7,7 @@ var Student = /** @class */ (function () {
         this.name = _name;
         this.address = _address;
     }
+    //https://github.com/abhigun1234/typescript.git
     Student.prototype.getName = function () {
         return this.name;
     };
@@ -21,6 +22,7 @@ var Student = /** @class */ (function () {
     };
     return Student;
 }());
+//taking data from user 
 // create object
 var st1 = new Student("Laxmi", "pimple");
 // st1.address='hinjewadi'
